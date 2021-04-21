@@ -1,0 +1,27 @@
+.rh-band-container {
+  padding: 0 15px;
+}
+@media (min-width: 768px) {
+  .rh-band-container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 708px;
+  }
+  .rh-band-container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media (min-width: 992px) {
+  .rh-band-container {
+    width: 932px;
+  }
+}
+@media (min-width: 1200px) {
+  .rh-band-container {
+    width: 1140px;
+  }
+}
