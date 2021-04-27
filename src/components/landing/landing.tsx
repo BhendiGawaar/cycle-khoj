@@ -4,9 +4,5 @@ import logo from "./../../logo.svg";
 import { Brand } from "@patternfly/react-core";
 
 export default function Landing() {
-  return (
-    <div>
-      <Brand src={pfLogo} alt="Patternfly Logo" />
-    </div>
-  );
+  return <></>;
 }
